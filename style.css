@@ -69,7 +69,7 @@ p {
 h2 {
     text-align: center;
 }
-main h2 {
+.main h2 {
     padding: 2px;
     text-align: center;
     border: solid 2px black;
@@ -95,21 +95,21 @@ nav a {
     margin: 20px;     
     font-size: 24px;    
 }
-main tr:nth-child(even) {
+.main tr:nth-child(even) {
     background-color: #f2f2f2;
 }
-main tr:nth-child(odd) {
+.main tr:nth-child(odd) {
     background-color: #C1C6C8;
 }
-main tr:hover {
+.main tr:hover {
     background-color: #C8102E;
 }
-main table {
+.main table {
     border: solid 1px black;   
     background-color: #C8102E;
     margin: 2px;
 }
-main th, main td {
+.main th, .main td {
     border: solid 1px black;   
 }
 ol {
